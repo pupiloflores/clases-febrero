@@ -1,0 +1,31 @@
+#seccion_rojo{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: crimson;
+}
+
+#seccion_amarillo{
+    grid-column: 3/4;
+    grid-row: 2/4;
+    background-color: yellowgreen;
+}
+
+
+.modo-grid{
+    display: grid;
+    width: 500px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows:  repeat(3,100px);
+    text-align: center;
+    margin: 5% auto;
+    gap: 5px;
+}
+
+.modo-grid > div{
+    border: 1px solid blue;
+    background-color: cornflowerblue;
+    margin-left: 5% auto;
+}
+

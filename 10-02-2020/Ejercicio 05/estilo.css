@@ -1,0 +1,22 @@
+.modo-grid{
+    display: grid;
+    grid-template-columns: 8fr 200px 5fr 50px 3fr 4fr;
+    grid-template-rows: 50px 50px;
+    text-align: center;
+    margin: 5% auto;
+}
+
+.modo-grid > div{
+    border: 1px solid blue;
+    background-color: royalblue;
+    margin-left: 5% auto;
+}
+
+#contenedor1{
+    margin: 0 auto;
+    padding: 0;
+    width: 80%;
+    height: auto;
+    border: 1px solid black;
+    background-color: grey;
+}

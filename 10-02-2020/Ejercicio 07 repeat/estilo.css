@@ -1,0 +1,13 @@
+.modo-grid{
+    display: grid;
+    grid-template-columns: repeat(5,10%) repeat(8, 1fr);
+    grid-template-rows: repeat(5, 100px) 250px;
+    text-align: center;
+    margin: 5% auto;
+}
+
+.modo-grid > div{
+    border: 1px solid blue;
+    background-color: lightseagreen;
+    margin-left: 5% auto;
+}

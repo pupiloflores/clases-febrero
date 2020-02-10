@@ -1,0 +1,13 @@
+.modo-grid{
+    display: grid;
+    grid-template-columns: minmax(100px, 500px) minmax(100px, 80%);
+    grid-template-rows: minmax(50px, 100px) minmax(200px, auto);
+    text-align: center;
+    margin: 5% auto;
+}
+
+.modo-grid > div{
+    border: 1px solid blue;
+    background-color: lightseagreen;
+    margin-left: 5% auto;
+}

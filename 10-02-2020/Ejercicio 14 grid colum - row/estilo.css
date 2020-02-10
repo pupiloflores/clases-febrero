@@ -1,0 +1,43 @@
+.modo-grid{
+    display: grid;
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-rows:  repeat(4,100px);
+    text-align: center;
+    gap: 10px;
+}
+
+.modo-grid > div{
+    border: 1px solid blue;
+    background-color: rgba(100, 148, 237, 0.726);
+}
+
+
+#header{
+    grid-column: 1/4;
+    grid-row: 1/2;
+    background-color: rgba(0, 0, 255, 0.568);
+}
+
+#nav{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-color: rgb(16, 194, 218);
+}
+
+#section{
+    grid-column: 2/3;
+    grid-row: 2/4;
+    background-color: rgba(255, 255, 0, 0.685);
+}
+
+#aside{
+    grid-column: 3/4;
+    grid-row: 2/4;
+    background-color: rgba(255, 166, 0, 0.658);
+}
+
+#footer{
+    grid-column: 1/4;
+    grid-row: 4/5;
+    background-color: coral;
+}
