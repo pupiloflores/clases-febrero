@@ -1,0 +1,7 @@
+span b{
+    color: green;
+}
+
+b span{
+    background-color: cyan;
+}

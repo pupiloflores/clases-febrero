@@ -1,0 +1,17 @@
+
+#contenedor .bg-azul .wh-200{
+    height: 200px;
+    background-color: blue;
+    width: 200px;
+}
+
+
+#contenedor .wh-200 .bg-azul{
+    height: 200px;
+    background-color: green;
+    width: 200px;
+}
+
+div p{
+    color: red;
+}

@@ -1,0 +1,27 @@
+div {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: coral;
+    /* margin: -1em; */
+}
+
+.div-1 {
+    margin: 0 0 2em -0.2em;
+    background-color: blue;
+}
+
+.div-2 {
+    margin: 0 0 5em -0.2em;
+    background-color: brown;
+    }
+
+.div-3 {
+    margin: 0 0 7em -0.2em;
+    background-color: green;
+}
+
+.div-4 {
+    margin: 0 0 9em -0.2em;
+    background-color: yellow;
+}

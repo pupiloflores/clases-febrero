@@ -1,0 +1,17 @@
+h1 .normal{
+    font-size: 10px;
+}
+
+span span{
+    color: yellow;
+    font-weight: bolder;
+}
+
+p .azul.amarillo{
+    color: green;
+    font-weight: bolder;
+}
+
+span .azul.amarillo{
+    font-size: 50px;
+}

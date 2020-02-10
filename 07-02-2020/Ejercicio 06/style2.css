@@ -1,0 +1,56 @@
+.contenedor{
+    background-color: yellowgreen;
+    width: 200px;
+    height: auto;
+    text-align: center;
+    padding: 0.7em;
+    margin-left: 1em;
+    display: inline-block;
+}
+
+.contenedor2{
+    display: block;
+    height: 20px;
+}
+
+.div-blue {
+    display: inline-block;
+    height: 170px;
+    width: 190px;
+    background-color: blue;
+    margin-top: 5px;
+}
+
+.div-naranjo {
+    display: inline-block;
+    height: 170px;
+    width: 190px;
+    background-color: orange;
+    margin-top: 5px;
+}
+
+.div-amarillo {
+    display: inline-block;
+    height: 170px;
+    width: 190px;
+    background-color: yellow;
+    margin-top: 5px;
+}
+
+.div-verde {
+    display: inline-block;
+    height: 170px;
+    width: 190px;
+    background-color: green;
+    margin-top: 5px;
+}
+
+section{
+    display: inline-flex;
+    margin: 0.5em;
+}
+
+.div-centrado{
+    text-align: center;
+    margin-top: 10em;
+}

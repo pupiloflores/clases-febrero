@@ -1,0 +1,24 @@
+.radius{
+    border-radius: 15px;
+}
+
+.width{
+    width: 200px;
+}
+
+.heigth{
+    height: 200px;
+}
+
+.radius.width.heigth{
+    background-color: coral;
+}
+
+
+
+
+
+#box{
+    background-color: lightcoral;
+}
+

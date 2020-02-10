@@ -1,0 +1,21 @@
+.div-1{
+    display: inline-block;
+    background-color: teal;
+    border: 1px solid black;
+}
+
+.div-2{
+    display: inline-block;
+    background-color: coral;
+    border: 1px solid black;
+}
+
+.div-1>p{
+    font-size: 50px;
+    border: 1px solid black;
+}
+
+.div-2>p{
+    font-size: 20px;
+    border: 1px solid black;
+}

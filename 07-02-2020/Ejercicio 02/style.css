@@ -1,0 +1,21 @@
+span.padding{
+    background-color: aquamarine;
+    padding-left: 2em;
+}
+
+span{
+    margin-left: 50px;
+    margin-bottom: 10000px;
+    padding-right: 50px;
+    background-color: teal;
+}
+
+/* span, i : son elementos inline y solo afectan a los lados 
+sobre la misma linea, no hace nada para arriba o abajo de la 
+linea. margin-top y paddig-top no funcionan.  */
+
+i{
+    margin-top: 10000px;
+    padding-top: 10px;
+    background-color: rgba(238, 130, 238, 0.349);
+}

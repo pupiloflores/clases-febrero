@@ -1,0 +1,10 @@
+.modo-grid{
+    display: grid;
+    grid-template-columns: 20% 30% 50%;
+    grid-template-rows: 100px 100px 100px;
+}
+
+.modo-grid > div{
+    border: 1px solid white;
+    background-color: tomato;
+}

@@ -1,0 +1,11 @@
+.font-32{
+    font-size: 32px;
+}
+
+.cursiva{
+    font-style: italic;
+}
+
+.font-32.cursiva{
+    color: blue;
+}

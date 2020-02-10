@@ -1,0 +1,13 @@
+.borde{
+    border: 1px solid black;
+}
+
+.dimension{
+    width: 100px;
+    height: 100px;
+}
+
+
+.borde.dimension{
+    border-radius: 15px;
+}
