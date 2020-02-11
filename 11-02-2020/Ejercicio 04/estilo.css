@@ -1,0 +1,72 @@
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(2, 100px);
+    background-color: rgb(13,59,59);
+    gap: 10px;
+    width: 300px;
+    height: 300px;
+    
+}
+
+#div-1{
+    min-width: 100px;
+    min-height: 100px;
+    background-color: rgb(223, 219, 24);
+
+    justify-self: left;
+    align-self: baseline;
+}
+
+#div-2{
+    min-width: 100px;
+    min-height: 100px;
+    background-color: rgb(31, 153, 19);
+    
+    justify-self: center;
+    align-self: baseline;
+}
+
+#div-3{
+    min-width: 30px;
+    min-height: 30px;
+    background-color: rgb(202, 29, 29);
+    
+    justify-self: right;
+    align-self: baseline;
+}
+#div-4{
+    min-width: 30px;
+    min-height: 30px;
+    background-color: rgb(72, 187, 196);
+    
+    justify-self: left;
+    align-self: end;
+}
+
+#div-5{
+    min-width: 30px;
+    min-height: 30px;
+    background-color: rgb(248, 130, 34);
+    
+    justify-self: center;
+    align-self: end;
+}
+
+#div-6{
+    min-width: 30px;
+    min-height: 30px;
+    background-color: rgb(166, 68, 175);
+    
+    justify-self: right;
+    align-self: end;
+}
+
+section{
+    margin: 0.5em auto;
+    padding: 0;
+    text-align: center;
+    color: rgb(226, 225, 225);
+    font-size: 40px;
+    font-family: sans-serif;
+}

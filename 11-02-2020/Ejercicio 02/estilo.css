@@ -1,0 +1,42 @@
+.grid{
+    display: grid;
+    width: 90%;
+    height: 270px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 70px);
+    grid-template-areas:"Verde      Azul        Azul"
+                        "Verde      Azul        Azul"
+                        "Amarillo   Amarillo    Corall";
+    gap: 10px;
+}
+
+.grid>div{
+    background-color: darkmagenta;
+}
+
+#caja-verde{
+    grid-area: Verde;
+    background-color: darkgreen;
+}
+
+#caja-azul{
+    grid-area: Azul;
+    background-color: darkblue;
+}
+
+#caja-amarillo{
+    grid-area: Amarillo;
+    background-color: rgba(216, 204, 33, 0.774);
+}
+
+#caja-coral{
+    grid-area: Corall;
+    background-color: coral;
+}
+
+section{
+    text-align: center;
+    color: rgb(226, 225, 225);
+    font-size: 40px;
+    font-family: sans-serif;
+}

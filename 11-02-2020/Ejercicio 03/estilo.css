@@ -1,0 +1,52 @@
+.grid{
+    display: grid;
+    width: 980px;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: minmax(150px, auto) 
+                        minmax(200px, auto) 
+                        minmax(400px, auto) 
+                        minmax(150px, auto);
+    grid-template-areas:"Verde      Verde       Verde"
+                        "Azul       Amarillo    Rosado"
+                        "N1         Amarillo    Rosado"
+                        "Corall     Corall      Corall";
+    gap: 10px;
+}
+
+.grid>div{
+    background-color: white;
+}
+
+#aside{
+    grid-area: Rosado;
+    background-color: rgba(211, 66, 98, 0.884);
+}
+
+#header{
+    grid-area: Verde;
+    background-color: rgb(151, 190, 79);
+}
+
+#nav{
+    grid-area: Azul;
+    background-color: rgba(11, 11, 141, 0.671);
+}
+
+#section{
+    grid-area: Amarillo;
+    background-color: rgba(216, 204, 33, 0.836);
+}
+
+#footer{
+    grid-area: Corall;
+    background-color: rgba(221, 83, 58, 0.918);
+}
+
+section{
+    margin: 0.5em auto;
+    padding: 0;
+    text-align: center;
+    color: rgb(226, 225, 225);
+    font-size: 40px;
+    font-family: sans-serif;
+}

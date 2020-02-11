@@ -1,0 +1,6 @@
+La página debe quedar centrada.
+El ancho total del panel es de 500px.
+Información para rellenar : https://es.wikipedia.org/wiki/Front-end_y_back-end
+
+Obs: Intente dejar el diseño lo más similar posible.
+

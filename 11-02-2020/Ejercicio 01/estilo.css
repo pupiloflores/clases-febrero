@@ -1,0 +1,32 @@
+.grid{
+    display: grid;
+    width: 500px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 150px);
+    grid-template-areas:"N1     Negro   N2"
+                        "Azul   Azul    Rojo"
+                        "N3     AzulN3      Rojo";
+    gap: 10px;
+}
+
+.grid>div{
+    background-color: darkmagenta;
+
+}
+
+#caja-negra{
+    grid-area: Rojo;
+    background-color: black;
+}
+
+#caja-azul{
+    grid-area: Negro;
+    background-color: darkblue;
+    color: white;
+
+}
+
+#caja-roja{
+    grid-area: Azul;
+    background-color: darkred;
+}

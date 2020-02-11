@@ -1,0 +1,32 @@
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px;
+    background-color: rgb(13,59,59);
+    width: 300px;
+}
+
+div{
+    text-align: center;
+    line-height: 95px;
+    font-weight: bolder;    
+    color: red;
+}
+
+.seccion-1{
+    border: 3px solid red;
+    background-color: rgb(255, 255, 0);
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+
+.seccion-2{
+    border: 3px solid blueviolet;
+    background-color: rgba(72, 255, 0, 0.5);
+    grid-column: 2/4;
+    grid-row: 1/2;
+}
+
+section{
+    margin: 0 auto;
+}
