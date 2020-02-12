@@ -1,0 +1,11 @@
+#miID.estilo{
+    background-color: yellowgreen;
+    width: 100px;
+    height: 100px;
+}
+
+.color.fondo{
+    background-color: violet !important ;
+    width: 150px;
+    height: 150px;
+}

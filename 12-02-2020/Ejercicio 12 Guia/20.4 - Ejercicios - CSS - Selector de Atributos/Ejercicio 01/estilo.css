@@ -1,0 +1,58 @@
+/*
+p[miAtributo$="s"]
+{
+    background-color: green;
+    color: white;
+    font-weight: bolder;
+}
+
+
+p[miAtributo="hola"]
+{
+    background-color: green;
+    color: white;
+    font-weight: bolder;
+}
+
+p[miAtributo|="Textos"]
+{
+    background-color: green;
+    color: white;
+    font-weight: bolder;
+}
+
+p[miAtributo^="tex"]
+{
+    background-color: green;
+    color: white;
+    font-weight: bolder;
+}
+
+p[miAtributo*="L" i]
+{
+    background-color: green;
+    color: white;
+    font-weight: bolder;
+}
+
+p[miAtributo]
+{
+    background-color: coral;
+    color: white;
+    font-weight: bolder;
+}
+
+p[miAtributo="Valores"]
+{
+    background-color: coral;
+    color: white;
+    font-weight: bolder;
+}
+*/
+p[miAtributo^="Tex"]
+{
+    background-color: coral;
+    color: white;
+    font-weight: bolder;
+}
+

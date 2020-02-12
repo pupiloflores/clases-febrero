@@ -1,0 +1,15 @@
+td[colspan="1"]
+{
+background-color: green;
+
+}
+
+td[colspan="2"]
+{
+    background-color: yellow;
+}
+
+td[colspan="3"]
+{
+    background-color: red;
+}

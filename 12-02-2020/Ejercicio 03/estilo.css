@@ -1,0 +1,7 @@
+div > span + span + #miID > span + h1.estilo.color{
+    color: white;
+    background-color: teal;
+    border-radius: 20px;
+    width: 200px;
+    text-align: center;
+}
