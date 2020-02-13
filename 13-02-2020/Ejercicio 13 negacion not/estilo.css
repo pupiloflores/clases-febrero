@@ -1,0 +1,7 @@
+body > :nth-child(n):not(.m1):not(.m2):not(i)
+{
+    background-color: teal;
+    color: yellow;
+    font-size: 18px;   
+}
+

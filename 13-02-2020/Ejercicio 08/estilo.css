@@ -1,0 +1,8 @@
+body>:first-child, body>:last-child
+{
+    background-color: teal;
+    color: white;
+}
+
+/*  no selecciona la ultima fila porque la ultima fila  es  script live server 
+(y no p) */

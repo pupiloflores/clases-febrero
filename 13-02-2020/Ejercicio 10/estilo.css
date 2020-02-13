@@ -1,0 +1,13 @@
+body >span:nth-of-type(2n)
+{
+    background-color: blue;
+    color: yellow;
+    font-size: 20px;   
+}
+
+body >p:nth-of-type(n+3)
+{
+    background-color: yellowgreen;
+    color: white;
+    font-size: 20px;  
+}

@@ -1,0 +1,6 @@
+body > :nth-child(n):not(p)
+{
+    background-color: blue;
+    color: yellow;
+    font-size: 20px;   
+}

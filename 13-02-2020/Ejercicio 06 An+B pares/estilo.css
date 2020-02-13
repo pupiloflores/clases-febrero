@@ -1,0 +1,11 @@
+body:nth-child(2)
+{
+    background-color: teal;
+    color: white;
+}
+
+body :nth-child(2n)
+{
+    background-color: coral;
+    color: white;
+}

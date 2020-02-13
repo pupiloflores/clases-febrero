@@ -1,0 +1,66 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,150px);
+    grid-template-rows: repeat(3,150px);
+    grid-template-areas:        "rosa       azul    amarillo",
+                                "amarillo   rojo    rosado",
+                                "rojo       rosa    azul";
+}       
+
+#caja-rosa{
+    background-color: violet;
+}
+
+#caja-rosa:hover{
+    background-color: rgba(238, 130, 238, 0.6);
+}
+
+#caja-azul{
+    background-color: blue;
+}
+
+#caja-azul:hover{
+    background-color: rgba(0, 0, 255, 0.6);
+}
+
+#caja-amarillo{
+    background-color: green;
+}
+
+#caja-amarillo:hover{
+    background-color: rgba(0, 128, 0, 0.6);
+}
+
+#caja-rojo{
+    background-color: red;
+}
+
+#caja-rojo:hover{
+    background-color: rgba(255, 0, 0, 0.6);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.miBoton{
+    padding: 10px 20px 10px 20px;
+    background-color: teal;
+    color: white;
+    width: fit-content;
+    font-weight: bolder;
+}
+
+.miBoton:hover{
+    background-color: rgb(111, 207, 46);
+}

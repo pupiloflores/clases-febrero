@@ -1,0 +1,40 @@
+table th:nth-of-type(n)
+{
+    background-color: teal;
+    font-size: 20px;   
+}
+
+table tr:nth-of-type(2n)
+{
+    background-color: rgb(48, 48, 119);
+    font-size: 18px;   
+}
+
+table tr:nth-of-type(2n+3)
+{
+    background-color: rgb(94, 140, 201);
+    font-size: 18px;   
+}
+
+table tr:last-of-type
+{
+    background-color: rgb(58, 58, 58);
+    font-size: 18px;   
+    height: 68px;
+    vertical-align: middle;
+    text-align: right;
+}
+
+td, th{
+    border: 1px solid black;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}

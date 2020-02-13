@@ -1,0 +1,20 @@
+body i:first-of-type, i:last-of-type
+{
+    background-color: coral;
+    color: white;
+    font-size: 18px;   
+}
+
+body p:first-of-type, p:last-of-type
+{
+    background-color: purple;
+    color: white;
+    font-size: 18px;   
+}
+
+body span:first-of-type, span:last-of-type
+{
+    background-color: teal;
+    color: white;
+    font-size: 18px;   
+}

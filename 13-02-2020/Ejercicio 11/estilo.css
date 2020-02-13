@@ -1,0 +1,6 @@
+body > span:nth-last-of-type(1), body > span:nth-last-of-type(2)
+{
+    background-color: blue;
+    color: yellow;
+    font-size: 20px;   
+}
