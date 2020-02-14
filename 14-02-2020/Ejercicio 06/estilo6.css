@@ -1,0 +1,14 @@
+.enlace{
+    color: black;
+}
+
+.enlace:active{
+    color: white;
+    background-color: green;
+}
+
+.enlace:visited{
+    color: orange;
+}
+
+

@@ -1,0 +1,10 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: teal;
+    transition: background-color 0.55s;
+}
+
+div:hover{
+    background-color: coral;
+}

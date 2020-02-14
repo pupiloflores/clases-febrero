@@ -1,0 +1,71 @@
+.boton_act{
+    padding: 10px 20px 10px 20px;
+    background-color: teal;
+    color: white;
+    width: 60px;
+    height: 16px;
+    font-weight: bolder;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.boton_act:active{
+    background-color: rgb(0,200,200);
+    border: 1px solid black;
+    width: 59.59px;
+    height: 15.59px;
+    padding: 7px 17px 7px 17px;
+    margin: 11px 3px 11px 3px;
+}
+
+.boton_act2{
+    padding: 10px 20px 10px 20px;
+    background-color: teal;
+    color: white;
+    width: 60px;
+    height: 16px;
+    font-weight: bolder;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.boton_act2:active{
+    background-color: rgb(0,200,200);
+    border: 1px solid black;
+    width: 60px;
+    height: 16px;
+    padding: 7px 17px 7px 17px;
+    margin: 11px 3px 11px 3px;
+}
+
+
+
+
+.boton_hov{
+    padding: 10px 20px 10px 20px;
+    background-color: coral;
+    color: white;
+    width: 60px;
+    height: 16px;
+    font-weight: bolder;
+    border-radius: 10px;
+}
+
+.boton_hov:hover{
+    background-color: rgba(255, 127, 80, 0.5);
+}
+
+.boton{
+    padding: 10px 20px 10px 20px;
+    background-color: green;
+    color: white;
+    width: 60px;
+    height: 16px;
+    font-weight: bolder;
+    font-size: 13.5px;
+    border-radius: 10px;
+}
+
+html{
+    font-family: sans-serif;
+}

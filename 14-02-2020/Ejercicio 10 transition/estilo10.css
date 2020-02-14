@@ -1,0 +1,18 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: teal;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    transition: color 1s, background-color 1.355s,height 1s, width 1s,font-size 1s, font-family 1s;
+}
+
+div:hover{
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: yellowgreen;
+}

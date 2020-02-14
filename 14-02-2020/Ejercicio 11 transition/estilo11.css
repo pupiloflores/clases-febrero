@@ -1,0 +1,20 @@
+
+.button::before{
+    display: inline-block;
+    content: "   ";
+    width: 24px;
+    height: 24px;
+    background: url("face.png");
+    vertical-align: middle;
+}
+
+input{
+    width: 150px;
+    height: 24px;
+    transition: all 1s;
+}
+
+input:hover{
+    width: 300px;
+    height: 24px;
+}
