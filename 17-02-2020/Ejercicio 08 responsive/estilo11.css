@@ -1,0 +1,31 @@
+.caja{
+    width: 500px;
+    height: 500px;
+    background-color: teal;
+    color: white;
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 500px)
+{
+    .caja{
+        width: 400px;
+        height: 400px;
+        background-color: yellow;
+        color: black;
+        font-size: 25px;
+        text-align: right;
+    }
+}
+
+@media only screen and (max-width: 400px)
+{
+    .caja{
+        width: 300px;
+        height: 300px;
+        background-color: coral;
+        color: white;
+        font-size: 12px;
+        text-align: center;
+    }
+}

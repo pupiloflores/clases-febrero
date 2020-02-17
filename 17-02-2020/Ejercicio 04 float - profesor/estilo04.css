@@ -1,0 +1,44 @@
+section{
+    height: 50px;
+    width: 900px;
+    background-color: rgba(0, 83, 139, 0.9); /*se hereda el color a los div */
+    overflow: hidden;  /*ver que pasa cuando se saca esta propiedad*/
+    border-radius: 10px;
+}
+
+.flotar-izq{
+    float: left;
+    width: 100px;
+    height: 100px;
+    line-height: 45px;
+    text-align: center;
+}
+
+.flotar-der{
+    float: right;
+    width: 100px;
+    height: 100px;
+    line-height: 45px;
+    text-align: center;
+}
+
+a{
+    color: white;
+}
+
+
+.paginador{
+    width: 850px;
+    background-color: rgb(59, 95,255);
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 15px 25px;
+}
+
+.izq{
+    float: left;
+}
+
+.der{
+    float: right;
+}

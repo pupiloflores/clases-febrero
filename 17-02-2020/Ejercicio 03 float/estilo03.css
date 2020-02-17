@@ -1,0 +1,21 @@
+section{
+    min-height: 20px;
+    width: 300px;
+    background-color: violet;
+    border: 3px solid black;
+    overflow: hidden;  /*ver que pasa cuando se saca esta propiedad*/
+}
+
+.flotar-izq{
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+}
+
+.flotar-der{
+    float: right;
+    width: 100px;
+    height: 100px;
+    background-color: teal;
+}

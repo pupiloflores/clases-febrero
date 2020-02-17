@@ -1,0 +1,46 @@
+.caja-1{
+    width: 400px;
+    height: 400px;
+    background-color: teal;
+}
+.caja-2{
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+}
+
+@media only screen and (max-width: 1000px)
+{
+    .caja-1{
+        width: 300px;
+        height: 300px;
+    }
+    .caja-2{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 800px)
+{
+    .caja-1{
+        width: 200px;
+        height: 200px;
+    }
+    .caja-2{
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 600px)
+{
+    .caja-1{
+        width: 100px;
+        height: 100px;
+    }
+    .caja-2{
+        width: 400px;
+        height: 400px;
+    }
+}

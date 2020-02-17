@@ -1,0 +1,43 @@
+.contenedor{
+    width: 700px;
+    height: 480px;
+    margin: 0 auto;
+    background-color: rgba(128, 128, 128, 0.192);
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: rgba(165, 42, 42, 0.692);
+}
+.div1-1{
+    float: left;
+}
+
+.div2-1{
+    float: left;
+}
+
+.div1-2{
+    clear: left;
+    float: left;
+}
+
+.div2-6{
+    float: right;
+}
+
+.div2-5{
+    float: right;
+}
+
+.div3-6{
+    clear: both;
+    float: right;
+}
+
+.div1-4{
+    clear: both;
+    float: left;
+}

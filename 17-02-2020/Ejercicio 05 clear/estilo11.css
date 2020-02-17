@@ -1,0 +1,25 @@
+div{
+    width: 700px;
+    margin: 0 auto;
+    border: 1px solid red;
+    background-color: grey;
+}
+
+.img-float-izq{
+    float: left;
+    margin-right: 10px;
+}
+
+.img-float-der{
+    float: right;
+    margin-left: 10px;
+}
+
+p{
+    text-align: justify;
+}
+
+h2{
+    clear: both;
+}
+
