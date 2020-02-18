@@ -1,0 +1,49 @@
+.grid{
+    display: grid;
+    width: 400px;
+    background-color: green;
+    grid-template-columns: repeat(2, 200px);
+    grid-template-rows: 200px repeat(2, 200px);
+    grid-template-areas:    "header header"
+                            "nav    aside"
+                            "nav    aside";
+}
+
+.grid>div{
+    border: 1px solid black;
+}
+
+.img{
+    width: 120px;
+    height: 120px;
+}
+.header, .nav, .aside{
+    text-align: center;
+    padding-top: 35px;
+}
+.header{
+    grid-area: header;
+    background-color: teal;
+}
+
+.nav{
+    grid-area: nav;
+    background-color: pink;
+}
+
+.aside{
+    grid-area: aside;
+    background-color: orange;
+}
+
+@media only screen and (orientation: landscape){
+    .grid{
+        display: grid;
+        width: 600px;
+        background-color: green;
+        grid-template-columns: repeat(3,200px);
+        grid-template-rows: repeat(2, 200px);
+        grid-template-areas:    "header     aside   aside"
+                                "header     nav     nav";
+    }
+}

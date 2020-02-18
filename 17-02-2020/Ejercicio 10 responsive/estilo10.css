@@ -1,5 +1,5 @@
 
-
+/* cuando el ancho es mayor que el alto */
 @media only screen and (orientation: landscape)
 {
     body{
@@ -7,7 +7,7 @@
     }
 }
 
-
+/* cuando el alto es mayor que el ancho */
 @media only screen and (orientation: portrait)
 {
     body{

@@ -1,0 +1,45 @@
+div{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: coral;
+    border: 1px solid red;
+    margin-right: 10px;
+    font-size: 50px;
+    text-align: center;
+    color: lightgreen;
+}
+
+.caja1, .caja2 {
+    color: lightgreen;
+    display: inline-block;
+}
+
+.texto1, .texto2{
+    display: none;
+    /*visibility: hidden (el texto está ahi, sigue
+    ocupando espacio, pero está oculto)*/
+}
+@media only screen and (max-width: 660px){
+    .caja1{
+        display: none;
+        margin-bottom: 10px;
+    }
+    .texto1{
+        display: block;
+        color: blue;
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 443px){
+    .caja2{
+        display: none;
+        margin-bottom: 10px;
+    }
+    .texto2{        
+        display: block;
+        color: blue;
+        font-size: 40px;
+    }
+}
