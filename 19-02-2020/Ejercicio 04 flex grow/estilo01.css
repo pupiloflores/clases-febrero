@@ -1,0 +1,22 @@
+.modo-flex{
+    width: 300px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.modo-flex>div{
+    height: 100px;
+    background-color: coral;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.w-1{
+    flex-grow: 1;
+}
+.w-2{
+    flex-grow: 2;
+}
+.w-3{
+    flex-grow: 3;
+}

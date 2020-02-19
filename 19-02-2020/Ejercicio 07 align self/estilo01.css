@@ -1,0 +1,43 @@
+.modo-flex{
+    width: 400px;
+    height: 250px;
+    display: flex;
+    flex-flow: row wrap;
+    border: 1px solid green;
+    background-color: gold;
+    text-align: center;
+}
+
+.modo-flex>div{
+    width: 100px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.caja1{
+    background-color: teal;
+    align-self: flex-end;
+    height: 100px;
+}
+
+.caja2{
+    background-color: lightskyblue;
+    align-self: center;
+    height: 100px;
+}
+
+
+.caja3{
+    background-color: yellowgreen;
+    align-self: flex-start;
+    height: 100px;
+}
+
+
+.caja4{
+    background-color: crimson;
+    align-self: stretch;
+}
+
+
+

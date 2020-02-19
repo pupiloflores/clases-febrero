@@ -1,0 +1,70 @@
+.modo-flex1{
+    width: 500px;
+    height: 200px;
+    display: flex;
+    flex-flow: row wrap;
+    border: 1px solid green;
+    background-color: greenyellow;
+    align-items: flex-start;
+}
+
+.modo-flex1>div{
+    width: 100px;
+    height: 100px;
+    background-color: teal;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.modo-flex2{
+    width: 500px;
+    height: 200px;
+    display: flex;
+    flex-flow: row wrap;
+    border: 1px solid green;
+    background-color: greenyellow;
+    align-items: flex-end;
+}
+
+.modo-flex2>div{
+    width: 100px;
+    height: 100px;
+    background-color: teal;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.modo-flex3{
+    width: 500px;
+    height: 200px;
+    display: flex;
+    flex-flow: row wrap;
+    border: 1px solid green;
+    background-color: greenyellow;
+    align-items: center;
+}
+
+.modo-flex3>div{
+    width: 100px;
+    height: 100px;
+    background-color: teal;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.modo-flex4{
+    width: 500px;
+    height: 200px;
+    display: flex;
+    flex-flow: row wrap;
+    border: 1px solid green;
+    background-color: greenyellow;
+    align-items: stretch;
+}
+
+.modo-flex4>div{
+    width: 100px;
+    background-color: teal;
+    border: 1px solid black;
+    box-sizing: border-box;
+}

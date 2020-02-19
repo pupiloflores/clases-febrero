@@ -1,0 +1,83 @@
+.modo-flex1{
+    width: 500px;
+    display: flex;
+    flex-flow: row wrap;
+    border: 1px solid green;
+    background-color: greenyellow;
+    justify-content: center;
+}
+
+.modo-flex2{
+    width: 500px;
+    display: flex;
+    flex-flow: row wrap;
+    border: 1px solid green;
+    background-color: greenyellow;
+    justify-content: flex-start;
+}
+
+.modo-flex3{
+    width: 500px;
+    display: flex;
+    flex-flow: row wrap;
+    border: 1px solid green;
+    background-color: greenyellow;
+    justify-content: flex-end;
+}
+.modo-flex4{
+    width: 500px;
+    display: flex;
+    flex-flow: row wrap;
+    border: 1px solid green;
+    background-color: greenyellow;
+    justify-content: space-around;
+}
+.modo-flex5{
+    width: 500px;
+    display: flex;
+    flex-flow: row wrap;
+    border: 1px solid green;
+    background-color: greenyellow;
+    justify-content: space-between;
+}
+
+
+.modo-flex1>div{
+    width: 100px;
+    height: 100px;
+    background-color: teal;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.modo-flex2>div{
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.modo-flex3>div{
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.modo-flex4>div{
+    width: 100px;
+    height: 100px;
+    background-color: lightskyblue;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.modo-flex5>div{
+    width: 100px;
+    height: 100px;
+    background-color: lightcoral;
+    border: 1px solid black;
+    box-sizing: border-box;
+}

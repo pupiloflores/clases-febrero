@@ -1,0 +1,16 @@
+.modo-flex{
+    width: 300px;   
+    /* en modo flex se ajusta al ancho de width. es como estar en width auto. 
+    flex va a tratar de reducir lo maximo posible las cajas y el contenido, y una 
+    vez que no pueda se va a desbordar. */
+    display: flex;
+    flex-direction: row;
+}
+
+.modo-flex>div{
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+    border: 1px solid black;
+    box-sizing: border-box;
+}

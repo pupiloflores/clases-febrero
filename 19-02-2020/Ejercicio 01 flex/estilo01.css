@@ -1,0 +1,13 @@
+.modo-flex{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+}
+
+.modo-flex>div{
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+    border: 1px solid black;
+    box-sizing: border-box;
+}

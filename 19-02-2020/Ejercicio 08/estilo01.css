@@ -1,0 +1,33 @@
+.modo-flex {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+    align-content: space-between;
+    border: 1px solid green;
+    background-color: rgba(255, 217, 0, 0.473);
+}
+
+.modo-flex>div {
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    margin: 0px 10px;
+}
+
+.modo-flex2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+    align-content: space-between;
+    border: 1px solid green;
+    background-color: rgba(108, 223, 32, 0.336);
+}
+
+.modo-flex2>div {
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    margin: 0px 10px;
+}
