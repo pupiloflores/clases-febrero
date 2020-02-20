@@ -1,0 +1,88 @@
+.grid-flex {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: auto auto minmax(100px, auto);
+    grid-template-areas:    "   header  header "
+                            "   nav     section"
+                            "   footer  footer";
+    gap: 30px;
+    width: 940px;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+header{
+    grid-area: header; 
+}
+header>h1{
+    font-size: 3em;
+    color: #27496d;
+    padding-left: 1em;
+}
+
+nav{
+    display: flex;
+    height: auto;
+    grid-area: nav; 
+    justify-content: center;
+}
+
+section{
+    display: flex;
+    height: auto;
+    flex-flow: column wrap;
+    grid-area: section; 
+    margin-right: 50px;
+    color: grey;
+    font-style: italic;    
+    text-align: justify;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+}
+
+.caja{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    width: 30%;
+    height: auto;
+    background-color: rgb(226, 226, 226);
+    font-size: 16px;
+    padding: 1em;
+    box-sizing: border-box;
+}
+
+footer{
+    display: flex;
+    flex-flow: row wrap;
+    height: auto;
+    width: auto;
+    grid-area: footer;
+    background-color: darkblue;
+    justify-content: center;
+    align-content: center;
+    font-style: italic;
+    color: white;
+    justify-content: center;
+    align-content: center;
+    margin: 0px 5%;
+}
+
+li{
+    color: black;
+    font-size: 16px;
+}
+li a{
+    display: flex;
+    color: #00a8cc;
+    line-height: 180%;
+}
+
+ul{
+    color: black;
+}
