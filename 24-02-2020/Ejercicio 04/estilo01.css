@@ -1,0 +1,27 @@
+section{
+    height: 200px;
+    width: 300px;
+    border: 1px solid blue;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    position: relative;
+}
+.div1{
+    background-color: green;
+    opacity: 50%;
+    top: 50px;
+    left: 50px;
+    z-index: 1;
+}
+.div2{
+    background-color: yellow;
+    top: 0px;
+    left: 100px;
+}
+

@@ -1,0 +1,32 @@
+section{
+    height: 300px;
+    width: 700px;
+    border: 1px solid blue;
+}
+div{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    display: inline-block;
+}
+.div1{
+    background-color: rgb(25, 121, 25);
+    top: calc(100%/2 - 50px);
+    left: calc(100%/2 - 50px);
+}
+.div2{
+    background-color: rgb(196, 117, 61);
+    top: calc(100%/2 - 100px);
+    left: calc(100%/2 - 90px);
+}
+.div3{
+    background-color: rgb(58, 58, 231);
+    top: calc(100%/2 - 100px);
+    left: calc(100%/2 - 310px);
+    z-index: 10;
+}
+.div4{
+    background-color: rgb(172, 62, 172);
+    top: 0px;
+    left: 0px;
+}
