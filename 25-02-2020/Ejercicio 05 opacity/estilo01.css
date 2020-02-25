@@ -12,10 +12,20 @@
     transition: all 600ms;
 }
 
-.box:hover{
+.main:hover .box{
     position: absolute;
-    opacity: 1%;
+    opacity: 0%;
     width: 400px;
     height: 230px;
     background-image: url(perro.jpg);
+}
+
+.main:hover p{
+    opacity: 1;
+}
+
+p{
+    position: absolute;
+    opacity: 0;
+    z-index: 2;
 }
