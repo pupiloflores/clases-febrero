@@ -1,0 +1,29 @@
+.main{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: rgb(106, 172, 106);
+    border: 1px solid black;
+}
+.box1{
+    position: absolute;
+    width: 200px;
+    top: 50px;
+    bottom: 0px;
+    background-color: crimson;
+}
+.box2{
+    position: absolute;
+    height: 200px;
+    right: 0px;
+    left: 0px;
+    background-color: goldenrod;
+}
+.box3{
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    right: 0px;
+    bottom: 50px;
+    background-color: blue;
+}

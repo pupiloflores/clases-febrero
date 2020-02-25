@@ -1,0 +1,111 @@
+body{
+    height: 1500px;
+    padding: 0px;
+    margin: 0px;
+}
+nav{
+    width: 1500px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+.bloque1{
+    width: 1500px;
+    height: 300px;
+    background-color: coral;
+}
+
+.img-header{
+    width: 1500px;
+    height: 300px;
+}
+.div-titulo{
+    color: wheat;
+    font-family: 'Josefin Slab';
+}
+
+.bloque2{
+    width: 1500px;
+    height: 1300px;
+    background-color: green;
+}
+.cuadro-texto{
+    width: 1500px;
+    height: 400px;
+    font-size: 30px;
+    color: wheat;
+    background-color: purple;
+    text-align: center;
+    padding-top: 30px;
+}
+
+nav li{
+    float: left;
+    width: 198px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: darkblue;
+    border: 1px solid yellow;
+    list-style: none;
+    padding: 0px 50px;
+}
+
+nav li:hover{
+    background-color: green;
+    border: 1px solid yellow;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    background: darkblue;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.caja{
+    width: 300px;
+    height: 100px;
+    background-color: rgb(51, 51, 131);
+    border: 1px solid rgb(165, 54, 54);
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    font-display: ;
+    font-weight: bolder;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 0px;
+    left: 640px;
+}
+.caja>p{
+    color: green;
+    font-size: 10px;
+}
+
+.boton{
+    width: 70px;
+    line-height: 30px;
+    background-color: rgb(211, 60, 34);
+    color: white;
+    border-radius: 5px;
+    position: relative;
+    bottom: -15px;
+    left: calc(100%/2 - 70px/2);
+}
+
+
+
+@media only screen and (max-width: 800px){
+    nav li{
+        width: 100%;
+        padding: 0px 0px;
+    }
+}
+

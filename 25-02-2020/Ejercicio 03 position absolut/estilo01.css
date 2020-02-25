@@ -1,0 +1,15 @@
+.main{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-color: limegreen;
+    border: 1px solid black;
+}
+
+.box{
+    position: absolute;
+    right: 0px;
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+}

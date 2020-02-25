@@ -1,0 +1,28 @@
+.main{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-color: coral;
+}
+
+.box-normal{
+    margin-left: 100px;
+    /*    position: relative; */
+    width: 250px;
+    height: 250px;
+    background-color: crimson;
+}
+
+.box-absolute{
+    position: absolute;  /* hacer relative*/ 
+    width: 100px;
+    height: 100px;
+    /* left: 0; */
+    background-color: green;
+}
+.box-relative{
+    position: relative;
+    width: 25px;
+    height: 25px;
+    background-color: cyan;
+}

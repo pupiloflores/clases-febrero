@@ -1,0 +1,21 @@
+.main{
+    position: relative;
+    width: 400px;
+    height: 230px;
+    background-color: rgb(209, 209, 209);
+}
+.box{
+    position: absolute;
+    width: 400px;
+    height: 230px;
+    background-image: url(perro.jpg);
+    transition: all 600ms;
+}
+
+.box:hover{
+    position: absolute;
+    opacity: 1%;
+    width: 400px;
+    height: 230px;
+    background-image: url(perro.jpg);
+}
