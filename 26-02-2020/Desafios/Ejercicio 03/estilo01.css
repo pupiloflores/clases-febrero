@@ -1,0 +1,51 @@
+.container{
+    position: relative;
+    height: 256px;
+    width: 256px;
+    overflow: hidden; 
+    border-radius: 200px;
+}
+
+.img-1{
+    float: left;
+    position: absolute;
+    height: 256px;
+    width: 256px;
+    background-image: url(tree.png);
+}
+.img-2{
+    float: left;
+    position: absolute;
+    height: 256px;
+    width: 256px;
+    left: 256px;
+    background-image: url(urban.png);
+    transition: all 1s;
+
+}
+.container:hover>.img-2{
+    position: absolute;
+    width: 256px;
+    left: 0px;
+    background-image: url(urban.png);
+}
+
+
+
+
+.container2{
+    position: relative;
+    width: 256px;
+    height: 256px;
+    overflow: hidden;
+    border-radius: 200px;
+}
+
+.container2>img:last-of-type{
+    position: absolute;
+    left: 256px;
+    transition: left 1s;
+}
+.container2:hover>img:last-of-type{
+    left: 0px;
+}

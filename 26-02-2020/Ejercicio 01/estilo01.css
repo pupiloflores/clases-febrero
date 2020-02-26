@@ -1,0 +1,62 @@
+.main{
+    position: relative;
+    width: 400px;
+    height: 230px;
+    background-color: rgb(209, 209, 209);
+}
+.perro{
+    position: absolute;
+    width: 400px;
+    height: 230px;
+    background-image: url(perro.jpg);
+    transition: all 600ms;
+    opacity: 1;
+}
+.main:hover .perro{
+    position: absolute;
+    width: 400px;
+    height: 230px;
+    background-image: url(perro.jpg);
+    opacity: 1;
+}
+.image{
+    position: absolute;
+    width: 0px;
+    height: 230px;
+    background-image: url(meme.jpg);
+    transition: all 600ms;
+    opacity: 0;
+}
+.main:hover .image{
+    position: absolute;
+    width: 400px;
+    height: 230px;
+    background-image: url(meme.jpg);
+    opacity: 1;
+}
+
+
+.img-perro{
+    position: absolute;
+    opacity: 1;
+}
+
+.img-image{
+    position: absolute;
+    width: 400px;
+    height: 230px;
+    transition: all 600ms;
+    opacity: 0;
+}
+
+.img-perro:hover{
+    position: absolute;
+    opacity: 1;
+}
+
+.img-image:hover{
+    width: 400px;
+    height: 230px;
+    position: absolute;
+    opacity: 1;
+}

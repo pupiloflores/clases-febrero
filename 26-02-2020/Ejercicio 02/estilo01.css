@@ -1,0 +1,33 @@
+.container{
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+}
+
+.box{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    margin: 20px;
+}
+.box2{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    margin: 20px;
+}
+.container:hover > .box{
+    background-color: rgb(83, 83, 255);
+}
+
+.container:hover >.box:first-of-type{
+    background-color: yellow;
+    border-radius: 5em;
+}
+
+.container:hover >.box:last-child{
+    background-color: cyan;
+    border-radius: 5em;
+}
