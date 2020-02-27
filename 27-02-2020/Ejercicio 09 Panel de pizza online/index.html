@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 9</title>
+    <link rel="stylesheet" href="estilo02.css">
+
+</head>
+    <body> 
+
+        <div class="contenedor">
+            <input class="box-nombre" type="text" placeholder="Nombre cliente">
+            <p>Ingredientes:</p> 
+            <div class="ingredientes">
+                <div class="col-ingred">
+                <input type="checkbox" name="pizza" id="Extra queso">
+                <label for="Extra queso">Extra queso</label> <br>
+                <input type="checkbox" name="pizza" id="Choricillo">
+                <label for="Choricillo">Choricillo</label> <br>   
+                <input type="checkbox" name="pizza" id="Aceitunas">
+                <label for="Aceitunas">Aceitunas</label> <br>
+                </div>
+                <div class="col-ingred">
+                <input type="checkbox" name="pizza" id="Oregano">
+                <label for="Oregano">Oregano</label> <br>
+                <input type="checkbox" name="pizza" id="Jamon">
+                <label for="Jamon">Jamon</label> <br>
+                </div>
+                <div class="col-ingred">
+                <input type="checkbox" name="pizza" id="Mozzarella">
+                <label for="Mozzarella">Mozzarella</label> <br>
+                <input type="checkbox" name="pizza" id="Pimenton">
+                <label for="Pimenton">Pimenton</label> <br>
+                </div>
+            </div>
+            <div> 
+                <label for="tamaño">Tamaño</label>
+                <select id="tamaño">
+                    <option value="XS">XS - Personal</option>
+                    <option value="S">S - Pequeño</option>
+                    <option value="M">M - Normal</option>
+                    <option value="L">L - Grande</option>
+                    <option value="XL">XL -Extra grande</option>
+                </select> 
+            </div> <br>
+            <div>
+                <p>Observación:</p>
+                <textarea class="observacion" cols="68" rows="8"></textarea>
+            </div>
+            <div class="boton">
+                <button type="button" onclick="alert('Solicitud enviada.')"> Enviar  </button>
+            </div>
+
+ 
+        </div>
+    </body>
+</html>

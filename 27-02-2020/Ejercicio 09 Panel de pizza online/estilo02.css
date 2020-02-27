@@ -1,0 +1,40 @@
+.contenedor{
+    margin: 0 auto;
+    width: 600px;
+    height: 490px;
+    background-color: silver;
+    color: blue;
+    border: 2px solid red;
+    border-radius: 1em;
+    padding: 20px;
+}
+.box-nombre{ 
+    width: 590px;
+    height: 28px;
+    border-radius: 5px;
+}
+.ingredientes{ 
+    padding: 10px 0;
+    width: 600px;
+    height: 100px;
+    display: block;
+}
+.col-ingred{
+    width: 32%; 
+    float: left;
+}
+.tamano{
+    display: inline;
+}
+.observacion{
+    border-radius: 5px;
+    resize: none;
+    padding: 15px;
+    box-sizing: content-box;
+}
+.boton{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 10px;
+}
