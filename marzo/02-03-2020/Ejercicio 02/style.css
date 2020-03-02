@@ -1,0 +1,13 @@
+body{
+    background: url(247.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+input::placeholder{
+    color: white!important;
+}
+.login{
+    width: 1080px;
+}
