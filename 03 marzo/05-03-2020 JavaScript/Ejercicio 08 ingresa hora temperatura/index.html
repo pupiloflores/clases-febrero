@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript 08</title>
+
+
+</head>
+ 
+<script>
+  var hora = parseInt(prompt("Ingresa la hora"));
+  var bandera = 0;
+  if(11>=hora && hora>=8)
+  {
+    console.log("Max comprará un café");
+    alert("Max comprará un café");
+    bandera=1;
+  }
+
+  if(13>=hora && hora>=12)
+  {
+    var temp = parseFloat(prompt("Ingresa la temperatura"));
+    if(25>=temp && temp>=20)
+    {    
+    console.log("Max comprará un helado");
+    alert("Max comprará un helado");
+    }
+    else{
+      console.log("Sin instrucciones.");
+      alert("Sin instrucciones.");
+    }
+    bandera=1;
+  }
+
+  if( (16>=hora && hora>=14) || (22>=hora && hora>=20) )
+  {
+    console.log("Max comeraá un sandwich");
+    alert("Max comeraá un sandwich");
+    bandera=1;
+  }
+  if(hora==0){
+    console.log("No comerá nada y se irá a dormir.");
+    alert("No comerá nada y se irá a dormir.");
+    bandera=1;
+  }
+
+  // if( (23>=hora && hora>=17) || (7>=hora && hora>=1) )
+  if(bandera==0)
+  {  
+    console.log("Hacer nada");
+    alert("Hacer nada");
+  }
+
+</script>
+</body>
+
+</html>

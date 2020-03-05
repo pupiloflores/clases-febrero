@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript 01</title>
+
+     
+</head>
+
+  <script>
+    var s_liquido= parseInt(prompt("Ingrese sueldo"));
+    var retencion= parseInt(prompt("Ingrese retencion"));
+
+   
+    if(s_liquido >=0 && retencion >=0 && (1-(retencion/100))>0)
+    {    
+      var s_bruto= s_liquido / (1 - (retencion/100));
+      console.log("Sueldo bruto es: "+s_bruto.toFixed(0)+"" ); 
+      alert("Sueldo bruto es: "+s_bruto.toFixed(0)+"" );
+    }
+    else
+    {
+      console.log("No es posible calcular Sueldo Bruto.");
+      alert("No es posible calcular Sueldo Bruto.");
+    }
+
+  </script>
+
+</body>
+
+</html>
