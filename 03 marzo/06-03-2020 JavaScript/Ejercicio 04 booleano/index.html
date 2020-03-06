@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript 04</title>
+
+
+</head>
+ 
+<script>
+
+  var a = 1, b = 1, c = 1;
+  var estado;
+
+  if ( a >= b )
+  {
+    estado = false;
+    c++;
+  }
+  else{
+    estado = true;
+    a++;
+  }
+
+  if (estado)
+  {
+    estado = !estado;
+  }
+  else
+  {
+    b = c;
+    estado = a == 2;
+  }
+
+  console.log( a + " " + b + " " + c + " " + estado);
+  alert( a + " " + b + " " + c + " " + estado);
+  
+
+ // 1 2 2 false 
+
+</script>
+</body>
+
+</html>
+
