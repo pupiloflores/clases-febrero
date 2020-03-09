@@ -1,47 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>JavaScript 04</title>
-
-
 </head>
- 
 <script>
-
   var a = 1, b = 1, c = 1;
   var estado;
 
-  if ( a >= b )
-  {
+  if ( a >= b )  {
     estado = false;
-    c++;
+    c++;              // false a=1 b=1 c=2
   }
   else{
     estado = true;
     a++;
   }
-
-  if (estado)
-  {
+  if (estado)  {
     estado = !estado;
   }
-  else
-  {
+  else  {
     b = c;
-    estado = a == 2;
+    estado = a == 2;    // false a= 1 b=2 c=2
   }
-
   console.log( a + " " + b + " " + c + " " + estado);
   alert( a + " " + b + " " + c + " " + estado);
-  
-
  // 1 2 2 false 
-
 </script>
 </body>
-
 </html>
-
