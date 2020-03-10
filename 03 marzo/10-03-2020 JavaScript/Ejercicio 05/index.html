@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript 05</title>
+
+</head>
+
+<script>
+
+  var numero = parseInt(prompt("Ingrese numero entero:"));
+  var errores = 0 ;
+  
+    while ( numero < 0 || numero > 50){
+      errores = errores+1;
+      numero = parseInt(prompt("Vuelva a intentar:"));
+    }
+    console.log("Total Errores: " +errores);
+    alert("Total Errores: " +errores);
+ 
+
+</script>
+
+</body>
+
+</html>

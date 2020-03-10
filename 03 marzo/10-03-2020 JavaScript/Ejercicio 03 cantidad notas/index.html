@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript 03</title>
+
+</head>
+
+<script>
+
+  var cantidad = parseInt(prompt("Ingrese cantidad de notas."));  // 3
+  var num_nota = 1;
+  var suma_notas = 0;
+  var prom = 0;
+
+    while ( num_nota <= cantidad )  {
+      /*
+      notas = notas + parsefloat(prompt("Ingrese nota N°" + num_nota));
+      num_nota++;
+      */
+      nota = parseInt(prompt("Ingrese nota N°"+ num_nota ));
+      suma_notas = suma_notas + nota;
+      prom = (suma_notas/cantidad);
+      num_nota++;
+    }
+    console.log("Promedio Final: "+prom);
+    alert("Promedio Final: "+prom.toFixed(2));
+
+</script>
+
+</body>
+
+</html>
