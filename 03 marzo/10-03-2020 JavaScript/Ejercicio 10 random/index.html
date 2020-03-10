@@ -10,14 +10,18 @@
 
 <script>
 
-  var n1= parseInt(prompt("Ingrese numero 1"));
-  var n2= parseInt(prompt("Ingrese numero 2")); 
+  var n1 = parseInt(prompt("Ingrese numero 1"));
+  var n2 = parseInt(prompt("Ingrese numero 2"));
+  var contador = 0; 
+  var num;
 
-  var num = n1 + Math.random()*n2;
+while(contador <= 10 ){
+  var num = n1 + Math.random() * n2-n1;
   num = Math.trunc(num); 
-  
-  console.log(num); 
- 
+  contador++;
+  console.log("Rango seleccionado: " +num);
+}
+
 
 </script>
 
