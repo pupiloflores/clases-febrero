@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript 01</title>
+
+</head>
+
+<script>
+
+  var numero = parseInt(prompt("Ingrese numero"));
+  var aleatorio = Math.trunc(40 + Math.random()*5);
+  var i = 1;
+
+  while (numero != aleatorio) {
+    // i++;
+    if (numero < aleatorio) {
+      console.log(+numero + " es demasiado bajo. Era " + aleatorio + ".\n"+ "Intento numero " + i);
+      alert(+numero + " es demasiado bajo. Era " + aleatorio + ".\n"+ "Intento numero " + i);
+      numero = parseInt(prompt("Ingrese numero"));
+      i++;
+    }
+    else  {
+      console.log(+numero + " es demasiado alto. Era " + aleatorio + ".\n"+ "Intento numero " + i);
+      alert(+numero + " es demasiado alto. Era " + aleatorio + ".\n"+ "Intento numero " + i);
+      numero = parseInt(prompt("Ingrese numero"));
+      i++;
+    }
+  }
+  console.log( " C O R R E C T O."+"\n"+" Era "+numero +"." );
+  alert( " C O R R E C T O."+"\n"+" Era "+numero +"." );
+
+
+</script>
+
+</body>
+
+</html>

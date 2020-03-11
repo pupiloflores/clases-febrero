@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript 08</title>
+
+</head>
+
+<script>
+
+  var pass = prompt("Ingrese contraseña");
+  var repass = prompt("Confirme contraseña");
+
+  do {
+    console.log("Autorizado");
+    alert("Autorizado");
+    break;
+  } while (pass == repass);
+
+  do {
+    alert("Intente de nuevo")
+    var pass = prompt("Ingrese contraseña");
+    var repass = prompt("Confirme contraseña");
+  } while (pass !== repass);
+
+
+
+
+</script>
+
+</body>
+
+</html>

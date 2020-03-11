@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript 09</title>
+
+</head>
+
+<script>
+
+  var numero = prompt("Ingrese numero");
+  var error = 1;
+
+  do {
+    error++;
+    numero = prompt("Error. Intento "+error+". Ingrese numero");
+  } while (numero !== 0 && error < 5);
+
+  do {
+    console.log("Correcto");
+    alert("Correcto");
+    break;
+  } while (numero == 0);
+
+
+
+
+</script>
+
+</body>
+
+</html>
