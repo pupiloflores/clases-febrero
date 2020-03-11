@@ -10,18 +10,20 @@
 
 <script>
 
-  var n1 = parseInt(prompt("Ingrese numero 1"));
-  var n2 = parseInt(prompt("Ingrese numero 2"));
-  var contador = 0; 
+  var n1 = parseInt(prompt("Ingrese primer numero"));
+  var n2 = parseInt(prompt("Ingrese segundo numero"));
+  var contador = ""; 
   var num;
+  var pantalla = "";
 
-while(contador <= 10 ){
-  var num = n1 + Math.random() * n2-n1;
+while (contador < 10 ){
+  var num = n1 + Math.random()*(n2-n1);             // 5 + random*(10-5) 
   num = Math.trunc(num); 
+  pantalla = pantalla + num + " "; 
   contador++;
-  console.log("Rango seleccionado: " +num);
+  console.log("Rango seleccionado: " +pantalla);
 }
-
+alert("Rango seleccionado: " +pantalla);
 
 </script>
 
