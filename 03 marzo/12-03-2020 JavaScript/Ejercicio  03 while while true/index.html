@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript 09</title>
+
+</head>
+
+<script>
+
+  var cantidad = 0, suma = 0, nota = 0, promedio = 0;
+
+  do {
+    nota = prompt("Ingrese notas ");
+    if (nota == "exit") {
+      break;
+    }
+    nota = parseFloat(nota);
+    if (nota > 7 || nota < 1) {
+      nota = prompt("Intente de nuevo: ");
+      nota = parseFloat(nota);
+    }
+    if (nota <= 7 && nota >= 1) {
+      suma += nota;
+      cantidad++;
+    }
+  } while (true);
+
+  console.log("Promedio: " + promedio.toFixed(2));
+  promedio = suma / cantidad;
+
+  if (promedio >= 4) {
+    console.log("Aprobado con " + promedio.toFixed(2));
+    alert("Aprobado con " + promedio.toFixed(2));
+  }
+  else {
+    console.log("Reprobado con " + promedio.toFixed(2));
+    alert("Reprobado con " + promedio.toFixed(2));
+  }
+
+
+
+
+
+
+
+</script>
+
+</body>
+
+</html>

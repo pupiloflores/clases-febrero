@@ -11,20 +11,23 @@
 <script>
 
   var numero = prompt("Ingrese numero");
-  var error = 1;
+  min = numero;
+  max = numero;
 
+  
   do {
-    error++;
-    numero = prompt("Error. Intento "+error+". Ingrese numero");
-  } while (numero !== 0 && error < 5);
-
-  do {
-    console.log("Correcto");
-    alert("Correcto");
-    break;
-  } while (numero == 0);
-
-
+    if (numero===0)
+    {
+      break;
+    }
+    numero = prompt("Ingrese numero");
+    if (numero > max) {
+        max = numero;
+    }
+    if (numero < min) {
+        min = numero;
+    }
+  } while (numero !== 0);
 
 
 </script>

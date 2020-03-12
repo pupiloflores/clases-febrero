@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript 09</title>
+
+</head>
+
+<script>
+
+  var numero = 0,  min = 9999,  max = 0;
+  
+  do {
+    if (numero===0)
+    { 
+      numero = prompt("Ingrese numero");
+      max = numero;
+      min = numero;
+    }
+    if (numero > max) {
+        max = numero;
+    }
+    if (numero < min) {
+        min = numero;
+    }
+    numero = prompt("Ingrese numero");
+  } while (numero !== "exit" );
+  console.log("Numero menor " + min +" y numero mayor " +max);
+  alert("Numero menor " + min +" y Numero mayor " +max);
+
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript caja registradora</title>
+
+</head>
+
+<script>
+
+  var cantidad, precio;
+  var total = 0;
+
+  var cantidad = prompt("Ingrese cantidad");    //      1       2
+  var precio = prompt("Ingrese precio");        //    100     100
+  
+  do {
+    if (cantidad === "exit" || precio === "exit") {
+      break;
+    } else {
+      cantidad = parseInt(cantidad);
+      precio = parseInt(precio);
+      total += (cantidad * precio);
+      console.log(total);
+      var cantidad = prompt("Ingrese cantidad");    //      1       2
+      var precio = prompt("Ingrese precio");        //    100     100
+    }
+  } while (cantidad > 0 || precio > 0);
+  alert("Total Boleta: " + total);
+
+
+
+
+
+
+
+
+
+
+</script>
+
+</body>
+
+</html>
