@@ -1,0 +1,37 @@
+TEL
+Trastorno Específico del Lenguaje
+
+FIL
+Funcionamiento Intelectual Limítrofe
+
+DEA
+Dificultad Específica del Aprendizaje
+
+DIM
+Discapacidad Intelectual Moderada
+
+DIL
+Discapacidad Intelectual Leve
+
+DIS
+Discapacidad Intelectual Severa
+
+TDA
+Trastorno Déficit Atencional
+
+TDA-H
+Trastorno Déficit Atencional con Hiperactividad
+
+TEA
+Trastorno Espectro Autista
+
+TGD
+Trastorno Generalizado del Desarollo
+
+CIRL
+Coeficiente Intelectual Rango Limítrofe
+
+*ITU
+Infección del Tracto Urinario
+
+Síndrome Down
