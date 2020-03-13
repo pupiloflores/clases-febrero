@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ciclo for 7</title>
+
+</head>
+
+<script>
+
+  var par=0, impar=0;
+  var aleatorio;
+
+  for (i=1; i <= 11; i++) {
+    
+    aleatorio = Math.random()*21;
+    aleatorio = Math.trunc(aleatorio);
+
+    if (aleatorio % 2 === 0) {
+      par+=1;
+      console.log("Numero par: " +par );
+    }
+    else {
+      impar+=1;
+      console.log("Numero impar: "+impar);
+    }
+  }
+  
+  console.log("Total pares: "+par + " | " + "Total impares: "+impar );
+  alert("Total pares: "+par + " | " + "Total impares: "+impar );
+
+
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ciclo for 5-5</title>
+
+</head>
+
+<script>
+ 
+ var mayores = 0;
+ var cont_mayores = "";
+ var menores = 0;
+ var cont_menores = "";
+ var ceros = 0;
+ var cont_ceros = "";
+  
+  for ( i=1; i<=10; i++) {
+    aleatorio = -10 + Math.random()*21;
+    aleatorio = Math.trunc(aleatorio);
+
+    if(aleatorio>0){
+      mayores+=1;
+      cont_mayores+=aleatorio + " ";
+    }
+    if(aleatorio<0){
+      menores+=1;
+      cont_menores+=aleatorio + " ";
+    }
+    if(aleatorio==0){
+      ceros+=1;
+      cont_ceros+=aleatorio + " ";
+    }
+  }
+  console.log("Numeros mayores a cero: "+mayores +"\n"  + "Numeros menores a cero: "+menores +"\n"  + "Numeros ceros: "+ceros  +"\n"+"\n" + "Los mayores fueron: " +cont_mayores +"\n" + "Los menores fueron: " +cont_menores +"\n" + "Los ceros fueron: " +cont_ceros);  
+  alert("Numeros mayores a cero: "+mayores +"\n"  + "Numeros menores a cero: "+menores +"\n"  + "Numeros ceros: "+ceros  +"\n"+"\n" + "Los mayores fueron: " +cont_mayores +"\n" + "Los menores fueron: " +cont_menores +"\n" + "Los ceros fueron: " +cont_ceros); 
+
+</script>
+
+</body>
+
+</html>
